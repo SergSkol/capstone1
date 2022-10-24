@@ -1,0 +1,109 @@
+body {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+}
+
+.menu-mobile {
+  display: flex;
+  position: sticky;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.burger-image {
+  height: 20px;
+  margin: 12px 0 0 12px;
+}
+
+.top-logo {
+  margin: 0 12px 0 0;
+}
+
+.invite {
+  background-image: url('../image/main_big.png');
+  background-position: center top;
+  background-size: auto;
+  height: auto;
+  padding: 51px 0 0 0;
+  width: 98%;
+  margin: 0px auto;
+}
+
+.invite h3 {
+  color: #ec5242;
+  font-size: 32px;
+  padding: 0 25px 0;
+}
+
+.invite h1 {
+  color: #ec5242;
+  font-size: 42px;
+  font-weight: 900;
+  padding: 0 25px 0;
+}
+
+.invite-text {
+  text-align: justify;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+  margin: 15px 0 40px;
+  line-height: 220%;
+  padding: 10px 25px 0;
+  font-size: 1.125em;
+}
+
+.invite-date {
+  color: rgb(87, 87, 87);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.invite-location {
+  color: rgb(87, 87, 87);
+  font-size: 15px;
+  text-align: center;
+}
+
+.program {
+  background-image: url("../image/pattern_bg.png");
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  overflow: auto;
+  padding-top: 60px;
+}
+
+.guide-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0px auto 54px;
+}
+
+.program-item {
+  margin: 0 0 0.5em;
+  padding: 16px 0;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+}
+
+.program-image {
+  margin: 0 0 0 0.5em;
+}
+
+.program-name {
+  color: #ec5242;
+  font-size: 14px;
+  text-align: center;
+  margin: auto 0.3em;
+  width: 26%;
+}
+
+.program-description {
+  text-align: left;
+  font-size: 0.75em;
+  width: calc(74% - 90px);
+}
