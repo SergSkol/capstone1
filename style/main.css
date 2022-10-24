@@ -26,7 +26,7 @@ body {
   height: auto;
   padding: 51px 0 0 0;
   width: 98%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .invite h3 {
@@ -80,7 +80,7 @@ body {
   width: 53px;
   height: 16px;
   border-bottom: 1px solid rgb(239, 81, 60);
-  margin: 0px auto 54px;
+  margin: 0 auto 54px;
 }
 
 .program-item {
