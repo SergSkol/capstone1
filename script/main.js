@@ -61,7 +61,7 @@ const speakers = [
     name: 'Jackie (Benya) Russel',
     photo: './image/speakers/Jack.jpg',
     title: 'Founder, Foxtrott',
-    description: 'Russel is primarily a representative of the working environment. High energy and drive make the author ideal for various arts such as flyball or agility. He has a huge amount of energy for his age. It may seem that he never gets tired and will still be energetic after their client is done with it. However, he will not tolerate prejudice, even if it is unintentional.',
+    description: 'Russel is primarily a representative of the working environment. High energy and drive make the author ideal for various arts such as flyball or agility.',
   },
 ];
 

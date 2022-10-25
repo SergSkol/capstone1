@@ -7,6 +7,10 @@ body {
   list-style-type: none;
 }
 
+.menu-desktop {
+  display: none;
+}
+
 .menu-mobile {
   display: flex;
   position: sticky;
@@ -122,7 +126,7 @@ body {
 }
 
 .program-item {
-  margin: 0 0 0.5em;
+  margin: 0 0 5px 3px;
   padding: 16px 0;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
@@ -142,7 +146,7 @@ body {
 
 .program-description {
   text-align: left;
-  font-size: 0.75em;
+  font-size: 12px;
   width: calc(74% - 90px);
 }
 
@@ -199,6 +203,7 @@ body {
   text-align: center;
   overflow: auto;
   padding-top: 60px;
+  width: 100%;
 }
 
 .footer {
@@ -262,6 +267,7 @@ body {
 
 .about-logo-image {
   border: 1px solid #272a31;
+  width: 98%;
 }
 
 .about-past-container {
@@ -280,4 +286,86 @@ body {
   font-size: 0.875em;
   line-height: 24px;
   margin: 0 10% 70px 10%;
+}
+
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  .menu-mobile {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+  }
+
+  .desktop-menu-box {
+    width: calc(100% - 130px);
+    height: 80px;
+    float: right;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+
+  .desktop-menu-item {
+    display: inline-block;
+  }
+
+  .desktop-menu-item-text {
+    margin: 0 25px;
+    color: #888;
+    font-size: 0.938em;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  .program-list {
+    float: left;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .program-item {
+    width: calc(20% - 3px);
+    height: 160px;
+    display: block;
+  }
+
+  .program-image {
+    margin: auto;
+  }
+
+  .program-name {
+    font-size: 18px;
+    text-align: center;
+    width: auto;
+  }
+
+  .program-description {
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+  }
+
+  .speaker-item {
+    width: calc(50% - 10px);
+    margin: auto;
+    float: left;
+    height: 249px;
+  }
+
+  .speaker-image {
+    width: 177px;
+    height: 177px;
+  }
+
+  .about-logo-image {
+    width: 49%;
+  }
+
+  .about-past-image {
+    width: 40%;
+  }
 }
