@@ -7,6 +7,12 @@ body {
   list-style-type: none;
 }
 
+.top {
+  background-image: url('../image/main_big.png');
+  background-position: center top;
+  background-size: auto;
+}
+
 .menu-desktop {
   display: none;
 }
@@ -16,6 +22,7 @@ body {
   position: sticky;
   width: 100%;
   justify-content: space-between;
+  background: #fff;
 }
 
 .mobile-menu-box {
@@ -31,6 +38,7 @@ body {
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 20px;
+  opacity: 0.9;
 }
 
 .mobile-menu-box.open-menu {
@@ -62,26 +70,26 @@ body {
 }
 
 .invite {
-  background-image: url('../image/main_big.png');
-  background-position: center top;
-  background-size: auto;
   height: auto;
   padding: 51px 0 0 0;
   width: 98%;
   margin: 0 auto;
+  max-width: 1100px;
 }
 
 .invite h3 {
   color: #ec5242;
   font-size: 32px;
+  font-weight: 100;
   padding: 0 25px 0;
 }
 
 .invite h1 {
   color: #ec5242;
-  font-size: 42px;
-  font-weight: 900;
   padding: 0 25px 0;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
 }
 
 .invite-text {
@@ -96,21 +104,27 @@ body {
 
 .invite-date {
   color: rgb(87, 87, 87);
-  font-size: 15px;
+  font-size: 24px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  margin: 15px 0 0;
+  padding: 0 25px 0;
 }
 
 .invite-location {
   color: rgb(87, 87, 87);
   font-size: 15px;
-  text-align: center;
+  text-align: left;
+  padding: 0 25px 0;
 }
 
-.program {
+.middle {
   background-image: url("../image/pattern_bg.png");
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
+}
+
+.program {
   font-size: 24px;
   color: #fff;
   text-align: center;
@@ -151,9 +165,19 @@ body {
 }
 
 .program-view-full {
-  text-align: right;
+  text-align: center;
   font-size: 16px;
   padding-bottom: 80px;
+}
+
+.program-view-full a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.speakers {
+  max-width: 1100px;
+  margin: 0px auto;
 }
 
 .speakers h2 {
@@ -199,11 +223,20 @@ body {
 
 .partners {
   background-color: rgb(39, 42, 50);
-  color: #fff;
   text-align: center;
   overflow: auto;
   padding-top: 60px;
   width: 100%;
+}
+
+.partners h2 {
+  color: rgb(182, 182, 182);
+}
+
+.partners-list img {
+  height: 60px;
+  margin: 0 20px 60px 20px;
+  filter: brightness(0) invert(1) opacity(0.4) drop-shadow(0 0 0 rgb(182, 182, 182));
 }
 
 .footer {
@@ -288,6 +321,16 @@ body {
   margin: 0 10% 70px 10%;
 }
 
+.about-footer {
+  background-color: rgb(39, 42, 50);
+  color: #fff;
+  display: flex;
+}
+
+.about-foot-details {
+  padding: 16px 0 0 100px;
+}
+
 /* Desktop version */
 @media screen and (min-width: 768px) {
   .menu-mobile {
@@ -296,11 +339,14 @@ body {
 
   .menu-desktop {
     display: flex;
+    padding: 0 0 0 40px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 2px 8px 0px;
+    position: relative;
+    background: #fff;
   }
-
+ 
   .desktop-menu-box {
     width: calc(100% - 130px);
-    height: 80px;
     float: right;
     color: #000;
     text-align: center;
@@ -321,6 +367,19 @@ body {
     vertical-align: middle;
   }
 
+  .red-border {
+    border: 7px solid #ec5242;
+  }
+
+  .invite {
+    max-width: 1100px;
+  }
+
+  .program {
+    max-width: 1100px;
+    margin: 0px auto;
+  }
+
   .program-list {
     float: left;
     display: flex;
@@ -328,8 +387,8 @@ body {
   }
 
   .program-item {
-    width: calc(20% - 3px);
-    height: 160px;
+    width: calc(20%);
+    height: 180px;
     display: block;
   }
 
@@ -367,5 +426,20 @@ body {
 
   .about-past-image {
     width: 40%;
+  }
+
+  /* Desktop version (wide)*/
+  @media screen and (min-width: 1100px) {
+    .menu-desktop {
+      padding: 0 0 0 15%;
+    }
+
+    .footer {
+      padding: 0 0 0 15%;
+    }
+
+    .about-footer {
+      padding: 0 0 0 15%;
+    }
   }
 }
