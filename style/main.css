@@ -340,7 +340,7 @@ body {
 
   .top-menu-desktop {
     height: 36px;
-    margin: 0px auto;
+    margin: 0 auto;
     display: flex;
     background-color: rgb(39, 42, 50);
   }
@@ -349,7 +349,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0 10% 0 0;
     align-items: center;
   }
