@@ -13,6 +13,7 @@ body {
   background-size: auto;
 }
 
+.top-menu-desktop,
 .menu-desktop {
   display: none;
 }
@@ -177,7 +178,7 @@ body {
 
 .speakers {
   max-width: 1100px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .speakers h2 {
@@ -337,14 +338,39 @@ body {
     display: none;
   }
 
+  .top-menu-desktop {
+    height: 36px;
+    margin: 0px auto;
+    display: flex;
+    background-color: rgb(39, 42, 50);
+  }
+
+  .top-menu-desktop ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px auto;
+    padding: 0 10% 0 0;
+    align-items: center;
+  }
+  
+  .top-menu-desktop ul li {
+    margin: 0 8px 0 8px;
+  }
+
+  .top-menu-desktop ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   .menu-desktop {
     display: flex;
     padding: 0 0 0 40px;
-    box-shadow: rgb(0 0 0 / 30%) 0px 2px 8px 0px;
+    box-shadow: rgb(0 0 0 / 30%) 0 2px 8px 0;
     position: relative;
     background: #fff;
   }
- 
+
   .desktop-menu-box {
     width: calc(100% - 130px);
     float: right;
@@ -377,7 +403,7 @@ body {
 
   .program {
     max-width: 1100px;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 
   .program-list {
@@ -428,7 +454,7 @@ body {
     width: 40%;
   }
 
-  /* Desktop version (wide)*/
+  /* Desktop version (wide) */
   @media screen and (min-width: 1100px) {
     .menu-desktop {
       padding: 0 0 0 15%;
