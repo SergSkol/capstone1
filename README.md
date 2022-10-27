@@ -11,7 +11,7 @@
 ## Live Demo
 
 There is the link to the online version
-https://sergskol.github.io/capestone1/
+https://sergskol.github.io/capstone1/
 
 ## Getting Started
 
