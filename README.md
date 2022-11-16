@@ -2,6 +2,13 @@
 
 > This web site was created for exhibition of contemporary art works, which to be open on-line on the base of S.Peterson School of Modern Art.
 
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/106581139/202181894-1395f054-fade-4ede-9349-b744d6180e10.png)
+
+![image](https://user-images.githubusercontent.com/106581139/202182039-452e2f52-e00f-4079-8022-cda02104ea5d.png)
+
+
 ## Built With
 
 - HTML, CSS, JavaScript
